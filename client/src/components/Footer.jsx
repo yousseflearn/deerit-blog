@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer, FooterIcon } from "flowbite-react";
+import { Footer } from "flowbite-react";
 import { Link } from "react-router-dom";
 import {
   BsFacebook,
@@ -15,7 +15,7 @@ const FooterComp = () => {
     <Footer container className="border border-t-8 border-teal-500">
       <div className="w-full max-w-7xl mx-auto">
         <div className="grid w-full justify-between sm:flex md:grid-cols-1">
-          <div mt-5>
+          <div className="mt-5">
             <Link
               to="/"
               className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
